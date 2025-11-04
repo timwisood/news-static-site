@@ -1,0 +1,10 @@
+name = "news-static-site"
+compatibility_date = "2024-12-01"
+
+[pages]
+# 部署目录
+bucket = "."
+# 构建命令（由于是静态站点，不需要构建）
+# build.command = ""
+# 输出目录
+# build.output_dir = ""
