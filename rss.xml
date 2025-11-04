@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>新闻网站 - 测试RSS</title>
+    <link>https://example.com</link>
+    <description>测试RSS订阅</description>
+    <lastBuildDate>Tue, 04 Nov 2025 14:03:51 GMT</lastBuildDate>
+    <item>
+        <title>测试新闻标题 1</title>
+        <link>https://example.com/news/test1.html</link>
+        <description>这是第一条测试新闻的描述内容。</description>
+        <pubDate>Tue, 04 Nov 2025 14:03:51 GMT</pubDate>
+    </item>
+    <item>
+        <title>测试新闻标题 2</title>
+        <link>https://example.com/news/test2.html</link>
+        <description>这是第二条测试新闻的描述内容。</description>
+        <pubDate>Tue, 04 Nov 2025 14:03:51 GMT</pubDate>
+    </item>
+</channel>
+</rss>
