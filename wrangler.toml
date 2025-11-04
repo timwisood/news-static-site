@@ -1,6 +1,9 @@
 name = "news-static-site"
 compatibility_date = "2024-12-01"
 
+[env.production]
+# 生产环境配置
+
 [pages]
 # 部署目录
 bucket = "."
@@ -8,3 +11,8 @@ bucket = "."
 # build.command = ""
 # 输出目录
 # build.output_dir = ""
+
+# 函数配置
+[[functions]]
+path = "/*"
+file = "functions/_redirects.js"
